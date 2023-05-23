@@ -1,0 +1,11 @@
+numpy
+torch==1.13.1
+torchaudio==0.13.1
+torchvision==0.14.1
+pandas==2.0.0
+tqdm==4.65.0
+typing_extensions==4.5.0
+scikit-learn
+IPython
+pydantic
+PyCryptoDome

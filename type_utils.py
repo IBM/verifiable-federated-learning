@@ -16,3 +16,12 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
+"""
+Utility script to help with type checking
+"""
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from main import ConfigDict
+    from commitment.params import Params
+    from commitment.commitment import Commitment
